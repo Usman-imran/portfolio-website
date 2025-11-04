@@ -22,7 +22,7 @@ const Contact = () => {
         e.preventDefault()
         setIsSending(true)
 
-        // EmailJS configuration - YAHAN APNE CREDENTIALS DALO
+        // EmailJS configuration 
         const templateParams = {
             from_name: formData.name,
             from_email: formData.email,
@@ -31,10 +31,10 @@ const Contact = () => {
         }
 
         emailjs.send(
-            'service_c4iz089', // SERVICE ID YAHAN DALO
-            'template_lkz66ri', // TEMPLATE ID YAHAN DALO
+            'service_c4iz089', // SERVICE ID 
+            'template_lkz66ri', // TEMPLATE ID 
             templateParams,
-            'AhHwfczDMsGmWRPJc' // PUBLIC KEY YAHAN DALO
+            'AhHwfczDMsGmWRPJc' // PUBLIC KEY 
         )
         .then((response) => {
             alert('Message sent successfully! ✅')
