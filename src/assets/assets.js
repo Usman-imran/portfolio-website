@@ -62,7 +62,7 @@ export const projects = [
     title: "Personal Library Manager",
     description:"An efficient book inventory manager featuring complete CRUD functionality in a sleek interface.",
     image: project4,
-    tech: ["Python", "Chainlit"],
+    tech: ["Python", "Streamlit"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "https://library-manager-twobgesaw6nkcfpud5kn4d.streamlit.app/",
     code: "#",
